@@ -16,18 +16,18 @@ if (!$_SESSION['user_login']) {
             <input type=hidden name="action" value="add">
             <div class="input-group mb-3 input-title">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-default">Article title</span>
+                    <span class="input-group-text" id="inputGroup-sizing-default">Article</span>
                 </div>
                 <input type="text" name="title" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
             </div>
             <div class="input-group input-content">
                 <div class="input-group-prepend">
-                    <span class="input-group-text">With textarea</span>
+                    <span class="input-group-text">Zapolni</span>
                 </div>
                 <textarea class="form-control" aria-label="With textarea" name="content"></textarea>
             </div>
             <div class="form-group">
-                <label for="topic">Select topic</label>
+                <label for="topic">Tema</label>
                 <select class="form-control" name="topic" id="topic">
                     <option value="games">games</option>
                     <option>programming</option>

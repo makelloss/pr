@@ -13,14 +13,14 @@ if (!isset($_POST ['go'])) {
 else {
 	if (!check_log($_POST ['login'])) { 
 		if (registration($_POST ['login'], $_POST ['pas'])) {
-			echo "You've been successfully registered!<br/>";
+			echo "You registered!<br/>";
 			echo "<a href='index.php'>Home</a><br/>";
 			echo "<a href='admin_panel.php'>Go to admin panel</a><br/>";
 		}
 	}
 	else {
 		echo $str_form;
-		echo "This user already exists!";
+		echo "User already exists";
 	}
 }
 include "html-parts/footer.php";

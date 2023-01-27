@@ -1,6 +1,5 @@
 <?php
 require_once "config.php";
-
 try {
     $conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DBNAME);
     $conn->set_charset("utf8mb4");

@@ -17,7 +17,7 @@ if (!isset($_POST['go'])) {
         ob_end_flush();
     } else {
         include "html-parts/header.php";
-        echo $str_form; // распечатываем форму
+        echo $str_form;
         echo "Incorrect data try again please <br>";
     }
 }

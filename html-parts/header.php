@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" href="index.php">Top News</a>
+                <a class="navbar-brand" href="index.php">Novosti</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,10 +29,10 @@
                                 <a class="nav-link text-dark" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="news.php">News</a>
+                                <a class="nav-link text-dark" href="news.php">Novosti</a>
                             </li>
                             <li class="nav-item user-item">
-                                <a href="profile.php">Profile</a>
+                                <a href="profile.php">Profil</a>
                                 <img src="assets/images/user.png" alt="profile">
                             </li>
                         </ul>

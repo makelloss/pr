@@ -79,7 +79,7 @@ function print_page_content($sort_topic = "all", $page = 1){
             echo get_article_item($row);
         }
     } else {
-        echo "В гостевой книге пока нет записей...<br>";
+        echo "пока нет записей<br>";
     }
     echo '</div>';
     echo out_pages($sort_topic, $page);
@@ -219,7 +219,7 @@ function add()
     try {
         if (!$conn->query("INSERT INTO `news_table` (article_author, article_date, article_title, article_content, article_type)
          VALUES ($author_id, NOW(), '$title', '$content', '$article_type');")) {
-            throw new Exception('Помилка заповнення  таблиці news_table: [' . $conn->error . ']');
+            throw new Exception('Erorr news_table: [' . $conn->error . ']');
         }
         $_SESSION['add'] = true;
         header("Location: admin_panel.php");

@@ -6,12 +6,9 @@ include "html-parts/header.php"; ?>
         <div class="container">
             <div class="news__description">
                 <img src="assets/images/news.webp" alt="news-image" class="news__image">
-                <h1>Top News</h1>
+                <h1>Novosti</h1>
                 <p class="news__text">
-                    Welcome everyone to our new brand website called News Agency!
-                    Here you can find a lot of new and usefull information on different topics.
-                    Look up for your topic and find out whatever you want.
-                    Explore and have fun right here.
+                Welcome to my site, I hope you enjoy everything, good luck don't get lost
                 </p>
             </div>
             <hr>
@@ -21,7 +18,7 @@ include "html-parts/header.php"; ?>
 <section class="articles">
     <div class="articles__wrap">
         <div class="container">
-            <h2>List our new publications</h2>
+            <h2>List</h2>
             <?php
             echo '<div class="articles__list">';
             $out = out(5);
@@ -30,7 +27,7 @@ include "html-parts/header.php"; ?>
                     echo get_article_item($row);
                 }
             } else {
-                echo "В гостевой книге пока нет записей...<br>";
+                echo "Пока нет записей...<br>";
             }
             echo "<hr></div>
                 <a class='btn btn-primary btn-page' href='news.php'>Explore more</a>
